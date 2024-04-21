@@ -1,10 +1,12 @@
 import React from 'react'
 import one from "../assets/1.png"
 import two from "../assets/2.png"
+import three from "../assets/3.png"
+import four from "../assets/4.png"
 
 function About() {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '100vh' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', height: '400vh', backgroundColor: 'black' }}>
 
             <div className='text-white' style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
                 <img src={one} alt="Logo" width={300} height={300} loading="lazy" />
@@ -18,7 +20,17 @@ function About() {
                 <img src={two} alt="Logo" width={300} height={300} loading="lazy" />
             </div>
 
+            <div className='text-white' style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+                <img src={four} alt="Logo" width={300} height={300} loading="lazy" />
+                <h3 >iufnarjibfiusarhfoieanfiuenoigfneraoighe4uigjiperbgouiegouipran<br />
+                    wtb4wuifobwiubfiuw  nfoiuwn iunhiofnoinw33oui</h3>
+            </div>
+            <div className='text-white' style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
 
+                <h3>iufnarjibfiusarhfoieanfiuenoigfneraoighe4uigjiperbgouiegouipran<br />
+                    wtb4wuifobwiubfiuw  nfoiuwn iunhiofnoinw33oui</h3>
+                <img src={three} alt="Logo" width={300} height={300} loading="lazy" />
+            </div>
 
         </div>
     )
