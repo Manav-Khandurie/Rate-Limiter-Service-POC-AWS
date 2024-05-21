@@ -12,7 +12,9 @@
 
 ### Tech Stack
 
-![Static Badge](https://img.shields.io/badge/AWS-101010?logo=amazonaws&logoColor=%232496ED) ![Static Badge](https://img.shields.io/badge/Docker-101010?logo=docker&logoColor=%232496ED) ![Static Badge](https://img.shields.io/badge/NodeJS-101010?logo=nodedotjs&logoColor=%23339933) ![Static Badge](https://img.shields.io/badge/express-101010?logo=express&logoColor=%232496ED) ![Static Badge](https://img.shields.io/badge/MSSQL-101010?logo=microsoftsqlserver&logoColor=%232496ED) ![Static Badge](https://img.shields.io/badge/ReactJS-101010?logo=react&logoColor=%2361DAFB) ![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26) ![Static Badge](https://img.shields.io/badge/JavaScript-101010?logo=javascript&logoColor=%23F7DF1E)  ![Static Badge](https://img.shields.io/badge/CSS-101010?logo=css3&logoColor=%231572B6)
+![Static Badge](https://img.shields.io/badge/AWS-101010?logo=amazonaws&logoColor=%232496ED) ![Static Badge](https://img.shields.io/badge/Python-101010?logo=python) ![Static Badge](https://img.shields.io/badge/S3-101010?logo=amazons3)![Static Badge](https://img.shields.io/badge/API%20Gateway-101010?logo=amazonapigateway)![Static Badge](https://img.shields.io/badge/IAM-101010?logo=amazoniam) ![Static Badge](https://img.shields.io/badge/Lambda-101010?logo=awslambda) ![Static Badge](https://img.shields.io/badge/Elastic%20Cache-101010?logo=amazonelasticache)![Static Badge](https://img.shields.io/badge/Redis-101010?logo=redis) ![Static Badge](https://img.shields.io/badge/ReactJS-101010?logo=react&logoColor=%2361DAFB) ![Static Badge](https://img.shields.io/badge/HTML-101010?logo=html5&logoColor=%23E34F26) ![Static Badge](https://img.shields.io/badge/JavaScript-101010?logo=javascript&logoColor=%23F7DF1E)  ![Static Badge](https://img.shields.io/badge/CSS-101010?logo=css3&logoColor=%231572B6) ![Static Badge](https://img.shields.io/badge/Tailwind-101010?logo=tailwindcss)
+![Static Badge](https://img.shields.io/badge/Render-101010?logo=render)![Static Badge](https://img.shields.io/badge/Vercel-101010?logo=Vercel)
+
 
 
 ### Contributing
