@@ -21,10 +21,14 @@ const Navbar = (props) => {
                         <Link to="/">Home</Link>
                     </li>
                     <li>
-                        <Link to="/">About</Link>
+                        <Link to="/About">About</Link>
                     </li>
                     <li>
-                        <Link to="/">Contact</Link>
+                        <Link to="/Contact">Contact</Link>
+                    </li>
+
+                    <li>
+                        <Link to="/Test">Test</Link>
                     </li>
                 </ul>
             </nav>
