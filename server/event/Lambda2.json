@@ -1,7 +1,6 @@
 {
     "resource": "example_resource",
     "url": "http://example.com",
-    "bucketsize": 5,
-    "refillrate": 1,
-    "ttl": 3600
-  }
+    "limit": 10,
+    "window_size_seconds": 60
+}

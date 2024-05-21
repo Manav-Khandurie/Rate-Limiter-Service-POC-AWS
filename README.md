@@ -8,7 +8,6 @@
 
 ### About the Project
 > The problem statement focuses on designing and implementing an effective rate limiting mechanism for API management to ensure fair and efficient usage of resources. The objective is to develop a system that prevents API abuse, optimizes resource allocation, and maintains high performance by applying various rate limiting strategies—Fixed Window, Sliding Window, Token Bucket, and Leaky Bucket. These strategies need to be adaptable based on parameters like request frequency, client identities, and available capacity.
-#redis-cli -h rate-limiter-cache-0001-001.easvay.0001.use1.cache.amazonaws.com -p 6379
 
 
 ### Tech Stack

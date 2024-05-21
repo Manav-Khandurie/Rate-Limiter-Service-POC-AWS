@@ -1,0 +1,10 @@
+{
+    "function": "Lambda1-RL",
+    "payload": {
+          "resource": "MKResource",
+          "url": "http://example.com",
+          "bucketsize": 5,
+          "refillrate": 1,
+          "ttl": 10
+    }
+}

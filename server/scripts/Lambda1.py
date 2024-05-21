@@ -3,7 +3,8 @@ import time
 import os
 
 URL = os.environ.get('URL')
-redis_client = redis.Redis(host=URL, port=6379, db=0)
+# redis_client = redis.Redis(host=URL, port=6379, db=0)
+redis_client = redis.Redis.from_url(URL)
 
 def is_allowed(resource, bucket_size, refill_rate, ttl_seconds):
     key = f"token_bucket:{resource}"

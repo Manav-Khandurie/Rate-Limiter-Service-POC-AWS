@@ -1,0 +1,53 @@
+{
+	"info": {
+		"_postman_id": "97465e81-962e-45d7-a402-356fe36a6c78",
+		"name": "Rate-Limiter-AWS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "26811368",
+		"_collection_link": "https://www.postman.com/orbital-module-engineer-11493836/workspace/postman-api-fundamentals-student-expert/collection/26811368-97465e81-962e-45d7-a402-356fe36a6c78?action=share&source=collection_link&creator=26811368"
+	},
+	"item": [
+		{
+			"name": "Test1Controller",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"function\": \"Lambda1-RL\",\r\n    \"payload\": {\r\n          \"resource\": \"MKResource\",\r\n          \"url\": \"http://example.com\",\r\n          \"bucketsize\": 5,\r\n          \"refillrate\": 1,\r\n          \"ttl\": 10\r\n    }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test2Controller",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"function\": \"Lambda2-RL\",\r\n    \"payload\": {\r\n        \"resource\": \"MK2_resource\",\r\n        \"url\": \"http://example.com\",\r\n        \"limit\": 5,\r\n        \"window_size_seconds\": 30\r\n    }\r\n}\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test3Controller",
+			"request": {
+				"method": "POST",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

@@ -3,8 +3,8 @@ import time
 import os
 
 URL = os.environ.get('URL')
-redis_client = redis.Redis(host=URL, port=6379, db=0)
-
+# redis_client = redis.Redis(host=URL, port=6379, db=0)
+redis_client = redis.Redis.from_url(URL)
 def is_allowed(resource, limit, window_size_seconds):
     key = f"fixed_window:{resource}"
     current_count = redis_client.get(key)

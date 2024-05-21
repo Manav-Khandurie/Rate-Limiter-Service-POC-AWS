@@ -4,7 +4,8 @@ import os
 
 URL = os.environ.get('URL')
 # Connect to Redis
-redis_client = redis.Redis(host=URL, port=6379, db=0)
+# redis_client = redis.Redis(host=URL, port=6379, db=0)
+redis_client = redis.Redis.from_url(URL)
 
 def is_allowed(resource, limit, window_size_seconds):
     key = f"sliding_window_log:{resource}"
