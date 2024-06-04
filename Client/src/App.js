@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import PrivateRoute from "./components/PrivateRoute";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
+
 import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/login" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/signup" element={<Signup setIsLoggedIn={setIsLoggedIn} />} />
         <Route path="/test" element={<Test />} />
+
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
 
