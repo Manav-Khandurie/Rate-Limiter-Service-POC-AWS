@@ -30,6 +30,10 @@ const Navbar = (props) => {
                     <li>
                         <Link to="/Test">Test</Link>
                     </li>
+                    <li>
+                        <a href="/src/apidoc/docapi.pdf" download="DocumentName.pdf">Docs</a>
+                    </li>
+
                 </ul>
             </nav>
 
